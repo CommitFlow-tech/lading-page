@@ -1,9 +1,9 @@
 "use client"
 
-import Image from "next/image"
 import { motion, useReducedMotion } from "motion/react"
 import { ArrowRight, Play, Sparkles } from "lucide-react"
 
+import { HeroDashboardMockup } from "@/components/sections/hero-dashboard-mockup"
 import { Button } from "@/components/ui/button"
 import { heroStats } from "@/lib/data/hero"
 import {
@@ -122,14 +122,7 @@ export function HeroSection() {
               <span className="size-3 rounded-full bg-chart-3/70" />
               <span className="size-3 rounded-full bg-primary/70" />
             </div>
-            <Image
-              src="/placeholder.svg"
-              alt="Painel de análise de dados com gráficos e métricas operacionais"
-              width={1200}
-              height={675}
-              priority
-              className="w-full"
-            />
+            <HeroDashboardMockup />
           </motion.div>
         </motion.div>
 
