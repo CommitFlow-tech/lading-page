@@ -39,7 +39,7 @@ export function ContactFooter() {
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <RevealOnScroll>
             <div>
-            <a href="#" aria-label="BuildX Solutions — início">
+            <a href="#" aria-label="CommitFlow-Tech — início">
               <SiteLogo />
             </a>
 

@@ -12,7 +12,7 @@ export const clientLogos: string[] = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "A BuildX entregou um sistema que reduziu nosso tempo de relatórios em 50%. A equipe entendeu nossas dores melhor do que nós mesmos.",
+      "A CommitFlow-Tech entregou um sistema que reduziu nosso tempo de relatórios em 50%. A equipe entendeu nossas dores melhor do que nós mesmos.",
     name: "Mariana Costa",
     role: "COO, setor de Segurança do Trabalho",
     metric: "50% mais rápido",

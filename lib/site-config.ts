@@ -1,11 +1,11 @@
 import type { ContactInfo, NavLink } from "@/types"
 
 export const siteConfig = {
-  name: "BuildX Solutions",
+  name: "CommitFlow-Tech",
   shortName: "CommitFlow-Tech",
   description:
     "Transformamos desafios únicos de negócio em software poderoso. Desenvolvimento sob medida, apps mobile, aplicações web e transformação digital para qualquer setor.",
-  url: "https://buildxsolutions.com",
+  url: "https://commitflow-tech.com",
   locale: "pt-BR",
 } as const
 
@@ -17,7 +17,7 @@ export const navLinks: NavLink[] = [
 ]
 
 export const contactInfo: ContactInfo = {
-  email: "contato@buildxsolutions.com",
-  phone: "+55 (11) 4000-1234",
-  location: "São Paulo, Brasil — Atendimento global",
+  email: "commitflowtecnologia@gmail.com",
+  phone: "+55 (85) 98122-8738",
+  location: "Ceara , Brasil — Atendimento global",
 }
